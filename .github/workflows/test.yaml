@@ -1,0 +1,11 @@
+---
+name: test
+on: workflow_dispatch
+permissions: {}
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+      - uses: actions/checkout@v5
